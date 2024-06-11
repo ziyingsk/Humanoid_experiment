@@ -11,12 +11,17 @@ While using these algorithms, I only specified the necessary parameters, and the
 
 ## Results
 
-Here is the graph showing the relationship between reward and training steps: ![Reward vs Training Steps](./train_rewards/reward.png)
+- **PPO**
+  - **Mean reward**: 442 ± 72
+  - **Video**: [download](./videos/PPO.mp4)
 
-Results of the three algorithms:
-- **PPO**: [Video](./videos/PPO.mp4)
-- **A2C**: [Video](./videos/A2C.mp4)
-- **SAC**: [Video](./videos/SAC.mp4)
+- **A2C**
+  - **Mean reward**: 338 ± 18
+  - **Video**: [download](./videos/A2C.mp4)
+
+- **SAC**
+  - **Mean reward**: 6455 ± 82
+  - **Video**: [download](./videos/SAC.mp4)
 
 ## Discussion
 
