@@ -1,0 +1,9 @@
+stable-baselines3[extra]
+gymnasium
+rl_zoo3
+mujoco-py 
+mujoco
+cython<3
+jsonschema
+glew
+swig
