@@ -36,7 +36,7 @@ Let's review the key differences between these three algorithms:
 - **A2C**: Uses statistical methods to reduce the variance of Q-values without changing the expectation by subtracting a baseline with zero expectation.
 - **SAC**: Adds an entropy term to the action policy to encourage more exploration.
 
-From this, we can see that A2C and PPO emphasize learning stability, while SAC emphasizes exploration. In other words, the humanoid posture control task involves a more complex dimensional space compared to many other tasks suitable for default parameters. Therefore, humanoid posture control relatively requires more emphasis on exploration in learning.
+From this, we can see that A2C and PPO emphasize learning stability, while SAC emphasizes exploration. In other words, the humanoid posture control task involves a more complex dimensional space compared to many other tasks suitable for default parameters. Therefore, humanoid posture control requires relatively more emphasis on exploration in learning. This is understandable since both the action space and observation space are relatively large in [Humanoid-V3](https://gymnasium.farama.org/environments/mujoco/humanoid/).
 
 ## Interesting Future Directions
 
