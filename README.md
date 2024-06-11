@@ -17,15 +17,15 @@ Here is the graph showing the relationship between reward and training steps:
 ### Evaluations of the Three Algorithms
 - **PPO**
   - **Mean reward**: 442 ± 72
-  - **Video**: ![download](./videos/PPO.gif)
+  - ![watch](./videos/PPO.gif)
 
 - **A2C**
   - **Mean reward**: 338 ± 18
-  - **Video**: ![download](./videos/A2C.gif)
+  - ![watch](./videos/A2C.gif)
 
 - **SAC**
   - **Mean reward**: 6455 ± 82
-  - **Video**: ![download](./videos/SAC.gif)
+  - ![watch](./videos/SAC.gif)
 
 ## Discussion
 
