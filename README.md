@@ -10,7 +10,11 @@ This reinforcement learning experiment primarily uses [Humanoid-V3](https://www.
 While using these algorithms, I only specified the necessary parameters, and the action policy was consistently `MlpPolicy`. During training, I used 2 V100 GPUs and conducted 10M steps for each algorithm. The training took about 4 hours.
 
 ## Results
+Here is the graph showing the relationship between reward and training steps:
 
+![Reward vs Training Steps](./train_rewards/reward.png)
+
+### Evaluations of the Three Algorithms
 - **PPO**
   - **Mean reward**: 442 ± 72
   - **Video**: [download](./videos/PPO.mp4)
