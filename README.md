@@ -73,7 +73,7 @@ Used for training the model. The current program uses parallel computing. If you
 
 Used to generate videos with the trained model. You need to create a `videos` folder before running the code. The code defaults to loading the model trained with the PPO algorithm.
 
-## Acknowledgement
+## Acknowledgements
 
 I would like to express my gratitude to Coursera and the University of Alberta for offering this excellent [reinforcement learning specialization](https://www.coursera.org/specializations/reinforcement-learning), which provided a wealth of theoretical knowledge. Additionally, I am grateful to the Hugging Face community for their [reinforcement learning course](https://huggingface.co/learn/deep-rl-course/unit0/introduction), which offered extensive practical knowledge. I also wish to thank BwUniCluster for providing access to their HPC resources.
 
