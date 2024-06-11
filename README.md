@@ -15,8 +15,8 @@ Here is the graph showing the relationship between reward and training steps: ![
 
 Results of the three algorithms:
 - **PPO**: [Video](./videos/PPO.mp4)
-- **SAC**: [Video](./videos/SAC.mp4)
 - **A2C**: [Video](./videos/A2C.mp4)
+- **SAC**: [Video](./videos/SAC.mp4)
 
 ## Discussion
 
