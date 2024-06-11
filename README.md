@@ -3,7 +3,7 @@
 
 This is a small experiment using reinforcement learning to make a humanoid model walk, aiming to gain some experience and intuition.
 
-## Introduction
+## Introduction and methods
 
 This reinforcement learning experiment primarily uses [Humanoid-V3](https://gymnasium.farama.org/environments/mujoco/humanoid/) from OpenAI's Gym and [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) (sb3). The objective of the environment is to move forward quickly without falling. According to the sb3 documentation, the default parameters of its reinforcement learning algorithms are somewhat empirical and can be used directly in some cases. Therefore, I was curious if this applies to robot control as well. Here, I compared three algorithms: PPO, SAC, and A2C.
 
