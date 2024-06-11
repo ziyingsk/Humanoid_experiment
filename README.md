@@ -14,9 +14,9 @@ While using these algorithms, I only specified the necessary parameters, and the
 Here is the graph showing the relationship between reward and training steps: (I will put a pic later)
 
 Results of the three algorithms:
-- **PPO**: Video (I will put a video later)
-- **SAC**: Video (I will put a video later)
-- **A2C**: Video (I will put a video later)
+- **PPO**: [Video](./videos/PPO.mp4)
+- **SAC**: [Video](./videos/SAC.mp4)
+- **A2C**: [Video](./videos/A2C.mp4)
 
 ## Discussion
 
