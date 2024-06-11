@@ -11,7 +11,7 @@ While using these algorithms, I only specified the necessary parameters, and the
 
 ## Results
 
-Here is the graph showing the relationship between reward and training steps: (I will put a pic later)
+Here is the graph showing the relationship between reward and training steps: ![Reward vs Training Steps](./train_rewards/reward.png)
 
 Results of the three algorithms:
 - **PPO**: [Video](./videos/PPO.mp4)
