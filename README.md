@@ -5,7 +5,7 @@ This is a small experiment using reinforcement learning to make a humanoid model
 
 ## Introduction
 
-This reinforcement learning experiment primarily uses [Humanoid-V3](https://www.gymlibrary.dev/environments/mujoco/humanoid/) from OpenAI's Gym and [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) (sb3). According to the sb3 documentation, the default parameters of its reinforcement learning algorithms are somewhat empirical and can be used directly in some cases. Therefore, I was curious if this applies to robot control as well. Here, I compared three algorithms: PPO, SAC, and A2C.
+This reinforcement learning experiment primarily uses [Humanoid-V3](https://gymnasium.farama.org/environments/mujoco/humanoid/) from OpenAI's Gym and [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) (sb3). The objective of the environment is to move forward quickly without falling. According to the sb3 documentation, the default parameters of its reinforcement learning algorithms are somewhat empirical and can be used directly in some cases. Therefore, I was curious if this applies to robot control as well. Here, I compared three algorithms: PPO, SAC, and A2C.
 
 While using these algorithms, I only specified the necessary parameters, and the action policy was consistently `MlpPolicy`. During training, I used 2 V100 GPUs and conducted 10M steps for each algorithm. The training took about 4 hours.
 
@@ -17,15 +17,15 @@ Here is the graph showing the relationship between reward and training steps:
 ### Evaluations of the Three Algorithms
 - **PPO**
   - **Mean reward**: 442 ± 72
-  - ![watch](./videos/PPO.gif)
+    ![watch](./videos/PPO.gif)
 
 - **A2C**
   - **Mean reward**: 338 ± 18
-  - ![watch](./videos/A2C.gif)
+    ![watch](./videos/A2C.gif)
 
 - **SAC**
   - **Mean reward**: 6455 ± 82
-  - ![watch](./videos/SAC.gif)
+    ![watch](./videos/SAC.gif)
 
 ## Discussion
 
