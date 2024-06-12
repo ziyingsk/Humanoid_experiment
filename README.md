@@ -43,6 +43,8 @@ After showing this strange human walking model (SAC algorithm) to my friend, she
 The key question is whether our natural human walking method actually receives higher rewards in the environment defined for the human model compared to the method learned by SAC. To explore this, we might need to use hard coding or imitation learning to assess the rewards for human-like walking.
 (I find this perspective of considering the problem from the robot's point of view quite interesting, as it may help in understanding its learning process.)
 
+When trying to know more about imitation learning, I came across this interesting paper: https://arxiv.org/html/2309.14225v3#bib.bib1
+
 ## Interesting Future Directions
 
 From the videos, we can see that although SAC achieved walking, its walking style is very peculiar. Making it walk more like a human would be very interesting. Currently, I see two promising directions:
