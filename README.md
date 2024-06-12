@@ -43,7 +43,7 @@ After showing this strange human walking model (SAC algorithm) to my friend, she
 When trying to know more, I came across the [AHAC paper](https://adaptive-horizon-actor-critic.github.io/), which clearly indicates that the human walking method has a higher reward compared to what SAC achieves. What a great work!!! However, when we look at the video of AHAC, we can see that the humanoid is still raising its right arm when running. Does this mean the AHAC algrithom are still at a local optimum? Interesting! 
 
 
-## Interesting Future Directions
+## Interesting Future Direction
 
 From what SAC and AHAC achieved, we can see that both algorithms chose to raise one arm from the very beginning until the end. Why is this? Is it because the algorithms chose this simple method to maintain balance, ignoring the more complicated ways of doing so?
 It’s clear that the main difference between the AHAC algorithm and human running lies in this behavior. Therefore, my intuition suggests that understanding this issue could potentially lead to further groundbreaking advancements.
