@@ -45,7 +45,7 @@ When trying to know more, I came across the [AHAC paper](https://adaptive-horizo
 
 ## Interesting Future Direction
 
-From what SAC and AHAC achieved, we can see that both algorithms chose to raise one arm from the very beginning until the end. Why is this? Is it because the algorithms chose this simple method to maintain balance, ignoring the more complicated ways of doing so?
+From what SAC and AHAC achieved, we can see that both algorithms chose to raise one arm from the very beginning until the end. Why is this? Is it because the algorithms chose this simple method to maintain balance, ignoring the more complicated ways of doing so?  
 It’s clear that the main difference between the AHAC algorithm and human running lies in this behavior. Therefore, my intuition suggests that understanding this issue could potentially lead to further groundbreaking advancements.
 
 ## Reproducing the Experiment
