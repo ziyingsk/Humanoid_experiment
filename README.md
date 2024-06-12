@@ -40,7 +40,7 @@ From this, we can see that A2C and PPO emphasize learning stability, while SAC e
 
 After showing this strange human walking model (SAC algorithm) to my friend, she laughed, saying it doesn't look like a human walking at all. This made me question why the human model doesn't walk like a real human. In fact, if we observe the model trained by SAC, it even learns to lift both feet off the ground briefly to increase forward speed. The key question is whether our natural human walking method actually receives higher rewards in the environment defined for the human model compared to the method learned by SAC.  
 
-When trying to know more, I came across the [AHAC paper](https://adaptive-horizon-actor-critic.github.io/), which clearly indicates that the human walking method has a higher reward compared to what SAC achieves. Great work!!! However, when we look at the video of AHAC, we can see that the humanoid is still raising its right arm when running. Does this mean the AHAC algrithom are still at a local optimum? Interesting! 
+When trying to know more, I came across the [AHAC paper](https://adaptive-horizon-actor-critic.github.io/), which clearly indicates that the human walking method has a higher reward compared to what SAC achieves. What a great work!!! However, when we look at the video of AHAC, we can see that the humanoid is still raising its right arm when running. Does this mean the AHAC algrithom are still at a local optimum? Interesting! 
 
 
 ## Interesting Future Directions
