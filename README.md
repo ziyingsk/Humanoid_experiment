@@ -38,12 +38,11 @@ Let's review the key differences between these three algorithms:
 
 From this, we can see that A2C and PPO emphasize learning stability, while SAC emphasizes exploration. In other words, the humanoid posture control task involves a more complex dimensional space compared to many other tasks suitable for default parameters. Therefore, humanoid posture control requires relatively more emphasis on exploration in learning. This is understandable since both the action space and observation space are relatively large in [Humanoid-V3](https://gymnasium.farama.org/environments/mujoco/humanoid/).
 
-After showing this strange human walking model (SAC algorithm) to my friend, she laughed, saying it doesn't look like a human walking at all. This made me question why the human model doesn't walk like a real human. It's easy to assume that the model converged to a local optimum, but is that really the case? I tried walking the way the model walks and realized that the stretching of the ligaments was very uncomfortable for me, and not being able to look ahead properly also felt quite unnatural. However, these are not issues for the human model; such constraints simply don't exist in its environment. In fact, if we observe the model trained by SAC, it even learns to lift both feet off the ground briefly to increase forward speed.
+After showing this strange human walking model (SAC algorithm) to my friend, she laughed, saying it doesn't look like a human walking at all. This made me question why the human model doesn't walk like a real human. In fact, if we observe the model trained by SAC, it even learns to lift both feet off the ground briefly to increase forward speed. The key question is whether our natural human walking method actually receives higher rewards in the environment defined for the human model compared to the method learned by SAC. 
+When trying to know more, I came across the [AHAC paper](https://adaptive-horizon-actor-critic.github.io/), which clearly indicated that human walking method does have high reward compared to what SAC have here. Great work!
 
-The key question is whether our natural human walking method actually receives higher rewards in the environment defined for the human model compared to the method learned by SAC. To explore this, we might need to use hard coding or imitation learning to assess the rewards for human-like walking.
 (I find this perspective of considering the problem from the robot's point of view quite interesting, as it may help in understanding its learning process.)
 
-When trying to know more, I came across this interesting paper: https://adaptive-horizon-actor-critic.github.io/
 
 ## Interesting Future Directions
 
