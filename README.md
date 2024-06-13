@@ -29,7 +29,7 @@ Here is the graph showing the relationship between reward and training steps:
 
 ## Discussion
 
-First of all, it must be emphasized that this is just a simple experiment with default hyper-parameters. This doesn't mean SAC outperformed other algorithms, so the following discussion is just some intuition:
+First of all, it must be emphasized that this is just a simple experiment with default hyperparameters. It has been well proven that, with proper fine-tuning, PPO can perform as well as SAC. The following discussion is just some intuition:
 
 Let's review the key differences between these three algorithms:
 - **PPO**: Utilizes clipping to restrict overly rapid changes in action policies, ensuring stability in learning.
